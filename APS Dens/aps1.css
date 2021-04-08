@@ -1,0 +1,184 @@
+#menu {
+  display: inline-block;
+  height: 128px;
+  margin: 100px 5% 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 90%;
+}
+#menu ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#menu ul:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#menu img {
+    
+    background-position: 50% center;
+    border:none;
+}
+
+
+body{
+    background-color: GRAY;
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2em 2em 4em;
+    background-image:  url(BACKGROUND.IMAGEM.jpg);
+    
+    
+}
+
+#menu li {
+  background-position: 50% center;
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  height: 128px;
+  line-height: 210px;
+  margin-right: 1%;
+  position: relative;
+  white-space: nowrap;
+  width: 13%;
+  z-index: 2;
+}
+#menu li:after {
+  background: url("../images/bg.png") repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: -10%;
+  top: 0;
+  width: 10%;
+}
+#menu a {
+  color: #eee;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+
+#logomuseu img {
+   align-content: center;
+   max-width: 100%;
+   height: auto;
+    
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin:  auto;
+    max-width: 95%;
+}
+
+p{
+    color: black;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    padding: 5px 20px;
+    display: inline-block;
+    height: auto;
+}
+
+div.box {
+	width: 150px;
+	display: inline-block;
+    align-content: center;
+	text-align:center;
+}
+
+#links img{
+    border:none;
+}
+
+iframe {
+  align-content: center;  
+}
+
+video {
+			max-width: 100%;
+			height: auto;
+            align-content: center;
+			}
+a.class{
+    display: inline-block;
+}
+
+*{
+ padding: 0px;
+ margin: 0px;
+} 
+
+section{
+ margin: 50px auto;
+ width: 1025px;
+ height: 150px;
+ align-content: center;
+    border:none;
+}
+
+.rede{
+ width: 60px;
+ height: 60px;
+ float: left;
+ margin-left: 20px;
+ transition: all 0.4s ease-out;
+ border-radius: 50%;
+ align-content: center;
+}
+
+.rede:hover{
+ cursor: pointer;
+ transform: translateY(-30px);
+ box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+.rede#facebook{
+ background-color: #2372a3;
+
+}
+.rede#twitter{
+ background-color: #0084b4;
+}
+.rede#instagram{
+ background-color: #3f729b;
+}
+
+.rede#snap{
+ background-color: #fc0;
+}
+.rede#plus{
+ background-color: #dd4b39;
+}
+.rede#youtube{
+ background-color: #8B0000;
+}
+
+.icone{
+ margin:0px auto;
+ padding: 15px;
+ width: 30px;
+}
